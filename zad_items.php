@@ -1,0 +1,71 @@
+
+
+ <!-- <!DOCTYPE html> -->
+<html>
+   <head>
+      <title>zad items</title>
+      <link rel="stylesheet" type="text/css" href="style_item.css">
+      <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  rel='stylesheet'>
+   </head>
+   <body>
+
+      <div class="container">
+         <div class="header">
+            <div class="logo" > <img src="/Applications/XAMPP/xamppfiles/htdocs/my_auction/my_auction/img/nnn.png" style=" width: 62%;
+               height: auto; " align="middle" alt="logo"></div>
+         </div>
+         <div class="menu">
+            <ul class="menu_list">
+               <li><a class="active" href="Home.php">الرئيسية</a></li>
+               <li><a href="coffee.php">المزادات</a></li>
+               <li><a href="machines.php">المنتجات</a></li>
+               <li><a href="log in.php">تسجيل الدخول</a></li>
+               
+            </ul>
+         </div>
+         <div class="products">
+          <ul class="list_product">
+          <li>
+         <a class="active" href="#">
+            <img src="/Applications/XAMPP/xamppfiles/htdocs/my_auction/my_auction/img/k.png" alt="img">
+            <p>طاولة طعام </p>
+            <p class="price"> 300 SR</p>
+            <hr>
+         <a href="#" class="cart"> إضافة للسلة <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+         <a href="#" class="heart"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+         </a>
+      </li>
+
+
+        <li>
+         <a class="active" href="#">
+            <img src="/Applications/XAMPP/xamppfiles/htdocs/my_auction/my_auction/img/bag.jpg" alt="img">
+            <p>حقيبة رجاليه</p>
+            <p class="price"> 200 SR</p>
+            <hr>
+         <a href="#" class="cart"> إضافة للسلة <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+         <a href="#" class="heart"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+         </a>
+      </li>
+
+
+        <li>
+         <a class="active" href="#">
+            <img src="/Applications/XAMPP/xamppfiles/htdocs/my_auction/my_auction/img/lab.jpg" alt="img">
+            <p>لابتوب</p>
+            <p class="price"> 900 SR</p>
+            <hr>
+         <a href="#" class="cart"> إضافة للسلة <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+         <a href="#" class="heart"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+         </a>
+      </li>
+
+      </ul>
+      </div>
+<div class="footer">
+  
+</div>
+</div>
+</body>
+</html>
